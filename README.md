@@ -28,6 +28,6 @@ python3 setup.py install
 pip3 install -r dev-requirements.in
 ```
 
-For normal usage do the same but don’t include the last line or use `[pipx](https://pypi.org/project/pipx/)` and install with
+For normal usage do the same but don’t include the last line or use [`pipx`](https://pypi.org/project/pipx/) and install with
 
 `pipx install git+https://github.com/jonasw234/merge_image_metadata`
