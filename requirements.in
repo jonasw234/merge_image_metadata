@@ -1,2 +1,2 @@
-imagehash
-Pillow
+ImageHash==4.3.1
+Pillow==9.4.0
