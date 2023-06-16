@@ -38,8 +38,8 @@ def create_image_hash(
     """
     Create a perceptual hash for an image file.
 
-    Params
-    ------
+    Parameters
+    ----------
     image_path : str
         Path to the image
     algorithm : Callable
@@ -63,8 +63,8 @@ def compare_image_hashes(
     """
     Compare two image hashes and return True if they are similar.
 
-    Params
-    ------
+    Parameters
+    ----------
     image1_hash : imagehash.ImageHash
         The hash of the first image
     image2_hash : imagehash.ImageHash
@@ -84,8 +84,8 @@ def merge_metadata(image1_path: str, image2_path: str) -> Tuple[list, list, list
     """
     Merge two images metadata into a single string.
 
-    Params
-    ------
+    Parameters
+    ----------
     image1_path : str
         Path to the first image
     image2_path : str
@@ -140,8 +140,8 @@ def apply_metadata(
     """
     Apply new metadata to an image.
 
-    Params
-    ------
+    Parameters
+    ----------
     image_path : str
         The path to the image to which the metadata should be applied
     keywords : list
@@ -185,8 +185,8 @@ def compare_all_images(folder_path: str) -> None:
     Compare all images in the given folder and transfer metadata between similar
     images.
 
-    Params
-    ------
+    Parameters
+    ----------
     folder_path : str
         Path to the folder containing the images.
     """
